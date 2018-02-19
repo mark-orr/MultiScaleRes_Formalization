@@ -1,9 +1,33 @@
 \documentclass{article}
-\title{Formalization of the Multi-Resolution Thesis and the Reciprocal Constraints Paradigm for Understanding Social Systems}
+\title{Multi-Scale Resolution of Human Social Systems:  A Synergistic paradigm for Simulating Minds and Society}
 \author{Mark G. Orr}
 
 \begin{document}
 \maketitle
+
+\section{Introduction}
+Recently, we put forth an initial sketch of what we call the Resolution Thesis.  The thesis holds that 1) models of cognition will be improved given constraints from the structure and dynamics of the social systems in which they are supposed to be embedded, and 2) the resolution of social simulations of agents will be improved given constraints from cognitive first principles.  This thesis reflects a variety of motivations, the most obvious being the observation that there is little overlap between the cognitive sciences and the generative social science approach[*REF EPSTEIN, 2008], both of which rely heavily on computer simulation to understand aspects of human systems, albeit different aspects of human systems with respect to scale.  The former focuses almost exclusively on the mind as a scientific object of study for which the lion's share of simulation efforts reflect a normative mind (one mind at a time, non-social) and the latter treating the mind as an abstraction without deep consideration for vast experimental evidence of how the mind operates or what are the central theoretical entities that compose the mind or the generation of new experimental evidence.  To a large degree, the resolution thesis is a recognition that the interdependence between cognitive and social systems has yet to be leveraged for the purposes of improving our understanding of both, despite some common points of interest.    
+[STATE THE THESIS AND PROVIDE OUR OVERARCHING MOTIVATION]
+[Q: Can we formalize this in mathematical terms? So there is structure; Wait on this]
+
+The Resolution Thesis can be understood from multiple perspectives.  From the view of cognitive science, the thesis means, broadly, that patterns of organization (e.g., information flow on the internet [REF; FROM SOCIALSIM], clustering of behaviors in a community[REF CHRISTAKIS] at the social and organizational level should inform the specifications of a cognitive model.  In other words, when possible, these patterns should be included as convergent evidence for a theory or model.  Naturally, it is desirable for cognitive models that are implicated in social behavior to have some reasonable explanatory scheme that links facets of the cognitive model to aspects of social organization.   We will address what this means and issues in more detail below but want to point the reader to Anderson's 200X Relevance Thesis as a useful example of reasoning about how cognition may have reasonable implications for social organization.   Furthermore, from the cognitive science perspective, neurophysiological processes are naturally implied and should be considered as a key part of the Resolution Thesis when appropriate [REF STOCCO here].  The reader might notice that it is difficult to think about using social organization as part and parcel of the convergent evidence of a cognitive model without considering the implications of cognition for social behavior.  But that is precisely the point--it is natural, once of the mind to think about how cognition scales, to think about using the degree to which it scales accurately as part of the convergent evidence for the validity of the model.
+
+
+From the generative social science perspective, the Resolution Thesis means that the representations of agents should be informed closely by cognitive science and relevant neurophysiological considerations.  This runs somewhat counter to the principled adherence to simplification of the internal processing of simulated agents found in this literature, one that, in fact, served to show that complex social dynamics can be driven by simple behavioral rules of agents.  However, more recently, there are efforts in the generative social sciences that acknowledged that closer ties to the psychological and neurophysiological underpinnings of human behavior may yield benefit.  Epstein's neurocognitive approach is a notable effort in this vein[REF, Epstein 2014]; there are other related approaches (e.g. REF 19-22 from BRiMS).  These efforts notwithstanding, there remains a large gap between them and the implementation of full-resolution models from cognitive science and psychology.  
+
+A third and more general view is that the Resolution Thesis is about human systems for which the distinction between neural, cognitive and social levels of scale should be considered in unison.  An understanding of any of these levels of scale is dependent, to some degree, on an understanding of the others.  This third viewpoint, we suggest, implies a methodological paradigm, what we call the reciprocal constraints paradigm, that is designed to leverage information from different levels of scale in an iterative and synergistic way[REF BRiMS paper]. The paradigm
+
+
+The thesis, despite sounding both reasonable and practical, is opposed on several fronts from both the cognitive sciences and generative social sciences (a child of the complexity sciences).  Simon's notion of nearly decomposable systems--that the temporal dynamics of adjacent levels of scale, in most systems, are little correlated--suggests that we can understand well the dynamics at each level of scale independently of the others(*REF, SIM 1962; see P. Anderson, 1972, for similiar argument in phyical systems).  The generative social sciences KISS (keep it simple, stupid) principle is clearly akin to Simon's notion, and is bolstered by the early wins in understanding the behavior of social systems (REF 15-17).   Another related, and possibley purer/stronger argument is that complexity arises in the midst of simplicity (e.g., May, 1976) a notion that is also well reflected in the origins of the generative social sciences (REF 15-17 from BRiMS).  In cognitive science, Newell, in considering the time scale of human behavior, suggested that the social band ($> 10^4$ seconds, representing social systems and organizational behavior) is characterized to be weak in strength in the sense that it may not provide computations in a systematic way (relative to lower temporal bands, e.g., cognitive and neural processes).  
+[SOME HISTORICAL CONTEXT THAT MAY BE IMMEDIATELY OBVIOUS OBJECTIONS FOR SOME READERS]
+
+These counter arguments notwithstanding, there have been some efforts that are useful when judging the feasibility of the Resolution Thesis.  
+
+
+
+[MISSING FROM THIS INTRO:  Distinction between temporal scale and physical scale important and their logical co-dependence, a la Newell bands and Simon's architecture and general complexity science wrt to scale where the latter often considers scale with physical; social media speeds up the social band, right?   ])
+
+
 \section{General Structure of the Reciprocal Constraints Paradigm}
 The RCP is a methodological approach for thinking about how to develop understanding of social systems, and ultimately provide useable simulations of such.  It's value does not lie in precise presecription, but in laying a foundation for fruitful social simulation and an understanding of the implications for theory and models across levels of scale.  Figure \ref{RCP_diagram} shows the four primary components of the RCP: a cognitive system, an upward-scaling constraint, a social system, and a downward-scaling constraint.  Figure \ref{RCP_diagram} captures the potential for integrating neurophysiolgical considerations when appropriate; these may prove as essential for some social systems.
 
@@ -18,18 +42,48 @@ A primary example in $S$ is the Korkmaz work...such that, given a social system 
  
 The empirical argument.  A fundamental component of constraints is that they are bound up
 
-The algorithmic considerations; where does this fit in?
+
 
 \subsubsection{Upward-Constraints}
-The constraints one type of inhieritance from the cognitive to social would be to consider the degree to which $\phi_{at}$ the $s$ in $S$ compares to $C$; in other words, to what degree does $s$ respect first principles of human cognition.  These are approaches that may not necessitate direct simulation, but would require a disciplined appraoch fo such a comparison. 
+
+
+Kinds(degrees of):
+
+The first kind is to implement full-fledged cognitive models into agent-based platforms.
+
+The second kind is to abstract some details from full-fledged cognitive models, but adhere to a principle of \textit{Accountable Modeling}\ref{LebiereX}.
+
+Another kind is analysis of The constraints one type of inhieritance from the cognitive to social would be to consider the degree to which $\phi_{at}$ the $s$ in $S$ compares to $C$; in other words, to what degree does $s$ respect first principles of human cognition.  These are approaches that may not necessitate direct simulation, but would require a disciplined appraoch fo such a comparison. 
 
 \subsubsection{Downward-Constraints}
 but by example, many social systems will define information flow among agents as a graph $G$ where $V(G)$ are the agents and $E(G)$ define the information channels among agents. 
 
 
 \subsubsection{Automation and Systems of Constraints}
-The notion of generating a fixed system of constraints that can automate the construction of social systems.
+The notion of generating a fixed system of constraints that can automate the construction of social systems.  $S$ and $C$ can be encoded as algorithms.  If this is the case, then we could construct an automated system that scans the parameter space (if computable).
 
+\section{Analysis of Prior Work}
+Here we provide examples of prior work that employ parts of the RCP.  As we have no known examples of the downward-constraints, we focus on upward-constraints.  These are not exhaustive; we apologize for any work not mentioned.  
 
+\section{An Example of RCT Implemented}
+Christian's sim
+
+Note, we may just provide examples of how Stocco's work might be used in our example...not run the actual sims if not have time.
+
+\section{Discussion}
+\subsection{Computational Complexity}
+Both levels of scale should restrict to functions that are computable in polynomial time.  
+
+\subsection{What Level of Scale for Initiation}
+We advocate starting with the cognitive level in principle.  This might mean starting with a social system, implemented on a graph. 
+
+\subsection{Social System Only and Graphical Dynamical Systesm}
+There 
+
+\section{Statistical and Analytical Models of Social Systems}
+Can we apply the RCP to Statistical or Analytic models that do not have implementations in simulation environments?  Is this possible?  If yes, then what are the considerations?
+
+\subsection{Importing Neurophysiology}
+Provide background on Stocco's work.
 
 \end{document}

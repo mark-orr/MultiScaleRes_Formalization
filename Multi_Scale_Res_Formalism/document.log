@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2018 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2018 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -84,7 +84,11 @@ efined on input line 46.
 
 [4]
 
-LaTeX Warning: Reference `LebiereX' on page 5 undefined on input line 60.
+LaTeX Warning: Reference `READ, ORR, Delage; etc' on page 5 undefined on input 
+line 48.
+
+
+LaTeX Warning: Reference `LebiereX' on page 5 undefined on input line 58.
 
 [5] [6] (./document.aux)
 
@@ -92,13 +96,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 243 strings out of 493089
- 2650 string characters out of 6134842
- 59199 words of memory out of 5000000
- 3802 multiletter control sequences out of 15000+600000
+ 244 strings out of 493089
+ 2674 string characters out of 6134842
+ 61199 words of memory out of 5000000
+ 3803 multiletter control sequences out of 15000+600000
  8550 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,8n,24p,1611b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,8n,24p,1907b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -112,7 +116,7 @@ xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (6 pages, 170581 bytes).
+Output written on document.pdf (6 pages, 171172 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

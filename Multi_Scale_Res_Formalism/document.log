@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 FEB 2018 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2018 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,39 +47,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 21.
+(Font)              <7> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 21.
+(Font)              <5> on input line 18.
 
 [2]
-Overfull \hbox (12.61299pt too wide) in paragraph at lines 31--31
+Overfull \hbox (12.61299pt too wide) in paragraph at lines 24--24
 []\OT1/cmr/bx/n/14.4 General Struc-ture of the Re-cip-ro-cal Con-straints
  []
 
 
-LaTeX Warning: Reference `RCP_diagram' on page 3 undefined on input line 32.
+LaTeX Warning: Reference `RCP_diagram' on page 3 undefined on input line 25.
 
 
-LaTeX Warning: Reference `RCP_diagram' on page 3 undefined on input line 32.
+LaTeX Warning: Reference `RCP_diagram' on page 3 undefined on input line 25.
 
 
-LaTeX Warning: Citation `van Rooij' on page 3 undefined on input line 34.
+LaTeX Warning: Citation `van Rooij' on page 3 undefined on input line 27.
 
 
-LaTeX Warning: Citation `2008' on page 3 undefined on input line 34.
+LaTeX Warning: Citation `2008' on page 3 undefined on input line 27.
 
 
-LaTeX Warning: Citation `Marr' on page 3 undefined on input line 34.
+LaTeX Warning: Citation `Marr' on page 3 undefined on input line 27.
 
 
-LaTeX Warning: Citation `1981' on page 3 undefined on input line 34.
+LaTeX Warning: Citation `1981' on page 3 undefined on input line 27.
 
 [3]
 
-LaTeX Warning: Reference `LebiereX' on page 4 undefined on input line 54.
+LaTeX Warning: Reference `vonRooij' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Reference `LebiereX' on page 4 undefined on input line 47.
 
 [4]
-Overfull \hbox (5.26126pt too wide) in paragraph at lines 83--83
+Overfull \hbox (5.26126pt too wide) in paragraph at lines 76--76
 []\OT1/cmr/bx/n/14.4 Statistical and An-a-lyt-i-cal Mod-els of So-cial Sys-
  []
 
@@ -89,13 +92,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 241 strings out of 493089
- 2600 string characters out of 6134842
+ 242 strings out of 493089
+ 2610 string characters out of 6134842
  59199 words of memory out of 5000000
- 3800 multiletter control sequences out of 15000+600000
+ 3801 multiletter control sequences out of 15000+600000
  8550 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,8n,24p,1705b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,8n,24p,1704b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -109,7 +112,7 @@ xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (6 pages, 164053 bytes).
+Output written on document.pdf (6 pages, 164818 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

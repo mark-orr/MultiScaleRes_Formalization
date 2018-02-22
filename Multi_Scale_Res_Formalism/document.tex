@@ -24,33 +24,36 @@ These counter arguments notwithstanding, our working assumption is captured by t
 \section{General Structure of the Reciprocal Constraints Paradigm}
 The RCP is a methodological approach for thinking about how to develop understanding of social systems, and ultimately provide useable simulations of such.  It's value does not lie in precise presecription, but in laying a foundation for fruitful social simulation and an understanding of the implications for theory and models across levels of scale.  Figure \ref{RCP_diagram} shows the four primary components of the RCP: a cognitive system, an upward-scaling constraint, a social system, and a downward-scaling constraint.  Figure \ref{RCP_diagram} captures the potential for integrating neurophysiolgical considerations when appropriate; these may prove as essential for some social systems.
 
-A central assumption in the RCP is that cognitive systems and definitions of agent behaviors in social systems are meant to represent human information-processing capacities that can be described as mathematical functions. \cite{van Rooij, 2008}\footnote{This is equivalent to Marr's computational level; we will use Marr's computational, algorithmic, and implementation levels of description\cite{Marr,1981} throughout this paper.}. From this assumption we can define a cognitive system as $\psi_{ct}: I_{ct} \rightarrow \psi_{ct}(i)$ where $I_{ct}$ is the set of allowable inputs and $\psi_{ct}(i)$ is the output; social systems have a corresponding agent definition as $\phi_{at}: I_{at} \rightarrow \phi_{at}(i)$ where $I_{at}$ is the set of allowable inputs and $\phi_{at}(i)$ is the output for an agent\footnote{Social and cognitive systems may define parameters regarding variability among a set of agents; this is not reflected here.}.   Further, we assume that defining social systems and cognitive models as having an abstract set of first principles $S$ and $C$, repectively such that $s \in S$ and $c \in C$ for $\phi_{at}$ and $\psi_{ct}$. Notice that $S$ and $C$ imply somthing about the inputs for both levels of scale as well as each's functional mapping.  $S$ and $C$ are theoretical entities that determine what is allowable; these will be defined more precisely below. The interpretation of the upward- and downward-scaling constraints we use is that each level of scale \textit{inherits} properties from the adjacent level.\footnote{In this treatment, we only have two levels, but this is not necessarily the case.}  We will expand on constraints below. 
+A central assumption in the RCP is that cognitive systems and definitions of agent behaviors in social systems are meant to represent human information-processing capacities that can be described as mathematical functions. \cite{van Rooij, 2008}\footnote{This is equivalent to Marr's computational level; we will use Marr's computational, algorithmic, and implementation levels of description\cite{Marr,1981} throughout this paper.}. From this assumption we can define a cognitive system as $\psi_{ct}: I_{ct} \rightarrow \psi_{ct}(i)$ where $I_{ct}$ is the set of allowable inputs and $\psi_{ct}(i)$ is the output; social systems have a corresponding agent definition as $\phi_{at}: I_{at} \rightarrow \phi_{at}(i)$ where $I_{at}$ is the set of allowable inputs and $\phi_{at}(i)$ is the output for an agent\footnote{Social and cognitive systems may define parameters regarding variability among a set of agents; this is not reflected here.}.   Further, we assume that defining social systems and cognitive models as having an abstract set of first principles $S$ and $C$, repectively such that $s \in S$ and $c \in C$ for $\phi_{at}$ and $\psi_{ct}$. Notice that $S$ and $C$ imply somthing about the inputs for both levels of scale as well as each's functional mapping.  $S$ and $C$ are theoretical entities that determine what is allowable; these will be defined more precisely below. The interpretation of the upward- and downward-scaling constraints we use is that each level of scale \textit{inherits} properties from the adjacent level, in a highly abstract way.\footnote{In this treatment, we only have two levels, but this is not necessarily the case.}  We will expand on constraints below. 
 
 \subsection{Constraints, Inheritance \& First Principles}
-What is a constraint?  It means, simply, that some properties of one level of scale are inherited by another level.  Thus, the potential power in RCP comes from defining inheritance a notion that is tighly coupled with the first principles $C$ and $S$. In a sense, it is right to consider inheritance as a way of putting cognitive first principles into social systems and vis versa. Beyond this abstraction, the detials of what inheritance means are quite different, from our perspective, for the upward- and downward-constraints.  As we do not have a formalization of the inheritance process, we are left to provide some examples that seem natural to a first approximation; these are not meant to be exhaustive or restrictive.
+In the RCP, properties or constraints of one level of scale are inherited by another level.  By inheritance, it is an abstract construct that means, co These constraints are defined as the $S$ and$C$ described above.    
 
-A primary example in $C$ is the set of allowable algorithms $A$ such that $a \in C$ \footnote{Issues of computational complexity are a separate but important consideration both in cognitive science and in generative social science that will be considered later or not at all in this paper.} that have some grounding in empirical work in cognitive science and psychology.  That is to say, given no new experiments, it might be   Not all algorithms that compute $\psi_{ct}$ are equivalent in this regard.  
+Thus, the potential power in RCP comes from defining inheritance a notion that is tighly coupled with the first principles $C$ and $S$. In a sense, this means that inheritance as a way of putting cognitive first principles into social systems and vis versa. Beyond this abstraction, the detials of what inheritance means are quite different, from our perspective, for the upward- and downward-constraints.  As we do not have a formalization of the inheritance process, we are left to provide some examples that seem natural to a first approximation; these are not meant to be exhaustive or restrictive but, hopefully informative.
 
-A primary example in $S$ is the Korkmaz work...such that, given a social system $S$ does not allow information from certain branches...in other words the social system affects the allowable inputs in a given unit time.  These have some grounding in empirical work on social structure
+A primary example in $C$ is the set of allowable algorithms $A$ such that $a \in C$ that have some grounding in empirical work in cognitive science and psychology.  This is a task complicated by the fact that within cognitive science and psychology there are sometimes strong disagreements concerning what is the right $A$, theroetically speaking, in terms of the task (what is the human analong that the models is representing)\footnote{Issues of computational complexity and human cognitive functions are outside of the scope of this argument at the present time, but should be included in the future\ref{vonRooij}}.  Despite this difficulty, not all algorithms that compute $\psi_{ct}$ are in $C$.  
+
+Primary examples in $S$ are the social structures, channels of information, and dynamics that characterize a social system, much of which is formalized using graph theory/network science.  These constraints in $S$ could directly affect the distribution of the inputs for a cognitive system.  It is important to notice that within $S$ are notions regarding the behavior of agents   
+
+given a social system $S$ does not allow information from certain branches...in other words the social system affects the allowable inputs in a given unit time.  These have some grounding in empirical work on social structure.   but by example, many social systems will define information flow among agents as a graph $G$ where $V(G)$ are the agents and $E(G)$ define the information channels among agents, $\phi_{at}$.  
  
-The empirical argument.  A fundamental component of constraints is that they are bound up
+A fundamental component of constraints, as we see it, is that they are bound up in both theory and empirical/observation work in respect to the discipines that address a particular level of scale.  This makes defining what is $S$ and $C$ precisely more a matter of practice, at least in the initial stages of applications of the \textit{RCP}.
+
+We've identified two approaches for implementing the RCP.  The first, and in some ways simplest, is to build a simulation platform that simultaneosly captures essentail aspects of both $S$ and $C$ (e.g., an agent-based model of cognitive agents) and to simulate a social phenomena.  In this case, the upward-constraints refer directly to the substition of  $\psi_{ct}$ for $\phi_{at}$; the downward-constraints refer to the degree to which the simulated social system matches $S$ as defined by the pheonomena of interest.  The downward constraints would thus serve as a signal that would suggest modifications to $\psi_{ct}$.  
+
+The second, and somewhat more complicated, is a suite of approaches that do not require invoking a full simulation system.  For example, given 
 
 
 
-\subsubsection{Upward-Constraints}
-
-
-Kinds(degrees of):
-
-The first kind is to implement full-fledged cognitive models into agent-based platforms.
 
 The second kind is to abstract some details from full-fledged cognitive models, but adhere to a principle of \textit{Accountable Modeling}\ref{LebiereX}.
 
 Another kind is analysis of The constraints one type of inhieritance from the cognitive to social would be to consider the degree to which $\phi_{at}$ the $s$ in $S$ compares to $C$; in other words, to what degree does $s$ respect first principles of human cognition.  These are approaches that may not necessitate direct simulation, but would require a disciplined appraoch fo such a comparison. 
 
 \subsubsection{Downward-Constraints}
-but by example, many social systems will define information flow among agents as a graph $G$ where $V(G)$ are the agents and $E(G)$ define the information channels among agents. 
-
+ Kinds(degrees of):
+ The first kind is to use a social system to generate distributions of inputs....
+ The first kind is to abstract away the details 
 
 \subsubsection{Automation and Systems of Constraints}
 The notion of generating a fixed system of constraints that can automate the construction of social systems.  $S$ and $C$ can be encoded as algorithms.  If this is the case, then we could construct an automated system that scans the parameter space (if computable).
@@ -73,7 +76,7 @@ We advocate starting with the cognitive level in principle.  This might mean sta
 \subsection{Social System Only and Graphical Dynamical Systesm}
 There 
 
-\section{Statistical and Analytical Models of Social Systems}
+\subsection{Statistical and Analytical Models of Social Systems}
 Can we apply the RCP to Statistical or Analytic models that do not have implementations in simulation environments?  Is this possible?  If yes, then what are the considerations?
 
 \subsection{Importing Neurophysiology}

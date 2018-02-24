@@ -34,13 +34,14 @@ In practice there are several approaches available for using the RCT, but what u
 \subsubsection{Single Scale Approaches}
 It is conceivable that a fruitful applcation of the RCP might occur at one level of scale.  Let us first consider the cognitive level of scale.  There exists a large literature on neural and cognitive approaches to understanding human social behavior and social psychology\footnote{Division 8 of the American Psychological Association is dedicated to social psychology} with the requisite broad range of methods and theoretical orientations, so defining a social phenomena of interest is natural at the cognitive level. One potential approach, then, for implementing the \textit{RCP} would be to map key properties of cognitive systems to properties of social systems.  For example, one central finding in cognitive science and psychology is that learning mechanisms are sensitive to the order in which information is presented to the system (e.g., a human or computational model of a human).  Further, there is a large set of social phenomena that imply some type of learning mechanism (attitude formation [REF ORR]; impression formation [REF MONROE]).  Thus, we can conclude, reasonably, that order matters for some social phenomena at the psychological level.  The application of the RCT, in this case, means understanding inferring what a distribution of the temporal order of inputs would be given some $s \in S$ . (This distribution, almost axiomatically, seems dependent upon some propoerties of $S$ if $S$ contains graph $G$ where $V(G)$ and $E(G)$ are the agents and information channels, respectively.)  Off-hand, there seem to be candidate examples from the literature regarding human socio-technical networks(e.g., [REF BEARMAN; REF BARABASI WEB]), but what this means precisely would depend on the social phenomena of interest (e.g., early language development may depend on a different $G \in S$ compared to racial stereotypes).
 
-At the social level of scale, phenomena of interest are, by definition social, but not cognitive.  An obvious approach here is an analysis of the degree to which $\phi_{at}$ the $s$ in $S$ compares to $C$; in other words, to what degree does $s$ respect $C$.  For some phenomena, it may be possible to find a $C$ that not only accords with $S$ but also is in some formal algoritmic formalism(e.g., \ref{READ, ORR, Delage; etc}).  So, the comparison would use...ask NDSSL folks.  [I put a query into NDSSL]. 
+At the social level of scale, an obvious approach is an analysis of the degree to which $\phi_{at}$ compares to any $\psi_{ct} in C$.  For the case in which $\phi_{at}$ and $\psi_{ct}$ are formally well defined, this might be relatively straigtforward.  But, there will certainly be cases for which this is not true.  For example, imagine that $\psi_{ct}$ is only defined in terms of an experimental paradigm, theoretical apparatus and the interpetation of data resulting from application of the experimental paradigm\footnote{Some might argue that under these conditions, the notion of a functional mapping $\psi_{ct}$ is nonsensical}.  One appraoch for comparison under these conditions would be to explore the behavior $\phi_{at}$ using an experimental paradigm (assuming $\phi_{at}$ is defined algorithmically) that generates systematic variation in the behavior of one agent at at time.  These results could be compared to what is known empirically about $\psi_{ct}$\footnote{This is precisely what computational psychology and cognitive science do in practice--test algoritms against human data}.  Let's use make this concrete.  A large deal of agent definitions in generative social science invoke a threshold rule (REF ORR).  [DO WE MENTION COMPUTATION COMPLEXITY]
+
+For some phenomena, it may be possible to find a $C$ that not only accords with $S$ but also is in some formal algoritmic formalism(e.g., \ref{READ, ORR, Delage; etc}).  So, the comparison would use...ask NDSSL folks.  [I put a query into NDSSL]. 
 
 *PROBLEMS, MISS CROSS SCALE DYNAMICS, e.g., capturing 
 
 \subsubsection{Multi-Scale Approach}
 to build a simulation platform that simultaneosly captures essentail aspects of both $S$ and $C$ (e.g., an agent-based model of cognitive agents) and to simulate a social phenomena.  In this case, the upward-constraints refer directly to the substition of  $\psi_{ct}$ for $\phi_{at}$; the downward-constraints refer to the degree to which the simulated social system matches $S$ as defined by the pheonomena of interest.  The downward constraints would thus serve as a signal that would suggest modifications to $\psi_{ct}$.  In this case $\phi_{at}$ is respected by the construction of the social simulation environment.
- 
 
 FREE PARAMETER PROBLEM AND Acountable modeling:  The second kind is to abstract some details from full-fledged cognitive models, but adhere to a principle of \textit{Accountable Modeling}\ref{LebiereX}.
 
@@ -74,7 +75,12 @@ Can we apply the RCP to Statistical or Analytic models that do not have implemen
 \subsection{Importing Neurophysiology}
 Provide background on Stocco's work.
 
-\subsection{A plan for moving forward}
+\subsection{Issues \& Moving Forward}
 From the single level of scale approach, One idea is to catalog social phenomena captured by psychological models and do a mapping of $C$ to $S$. \footnote{In the limit, the social features and the cognitive features have co-evolved on an evolutionary time scale}.
+
+Issues of the right cogntive model, lots of cog models....
+
+It should be clear that application of the RCP to social systems relies, in the end, of simulation approaches both at the cognitive and social levels.  Without this, the approaches are generally one level.  Even one level approaches that are formal and have sim, will still not capture the dynamics at play without full simualtion.  
+
 
 \end{document}

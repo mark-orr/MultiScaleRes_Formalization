@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 FEB 2018 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 FEB 2018 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,18 +74,13 @@ LaTeX Warning: Citation `Marr' on page 3 undefined on input line 26.
 
 LaTeX Warning: Citation `1981' on page 3 undefined on input line 26.
 
-[3]
-
-LaTeX Warning: Reference `categorization, language, skills, etc.' on page 4 und
-efined on input line 39.
-
-[4]
+[3] [4]
 
 LaTeX Warning: Reference `READ, ORR, Delage; etc' on page 5 undefined on input 
-line 41.
+line 37.
 
 
-LaTeX Warning: Reference `LebiereX' on page 5 undefined on input line 50.
+LaTeX Warning: Reference `LebiereX' on page 5 undefined on input line 48.
 
 [5] [6] (./document.aux)
 
@@ -93,13 +88,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 243 strings out of 493089
- 2664 string characters out of 6134842
+ 242 strings out of 493089
+ 2624 string characters out of 6134842
  61199 words of memory out of 5000000
- 3802 multiletter control sequences out of 15000+600000
+ 3801 multiletter control sequences out of 15000+600000
  8550 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,8n,24p,1949b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,8n,24p,2185b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -113,7 +108,7 @@ xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (6 pages, 170257 bytes).
+Output written on document.pdf (6 pages, 170075 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

@@ -29,32 +29,28 @@ The notion of reciprocal constraint in the \textit{RCP} reflects theorectical an
 
 
 \subsection{Applying the Reciprocal Constraints Paradigm}   
-In practice there are several approaches available for using the RCT, but what unites them is the study of a human social phenomena, either defined at one level of scale or at multiple levels of scale.  Naturally, the first step is to identify a social phenonmena of interest, a task that is inherently tied to one's perspective.  If the perspective is largely in $C$, then the focus would most likely be on understanding the psychological processes, representations, etc. in relation to social systems; in other words a normative human\footnote{Individual differences do not preclude the notion of normative human but can be considered a parameter in such a theory}.   Another perspective, largely in $S$, would dictate a concern with the social structures and dynamics of the social system (multiple humans interacting) with some degree of constraint from $C$.  Of course, one could take the perspective that treats $C$ and $S$ simultanteously.  
+In practice there are several approaches available for using the RCT, but what unites them is the study of a human social phenomena, either defined at one level of scale or at multiple levels of scale.  Naturally, the first step is to identify a social phenonmena of interest, a task that is inherently tied to one's perspective.  If the perspective is largely in $C$, then the focus would most likely be on understanding the psychological processes, representations, etc. in relation to social systems; in other words a normative human\footnote{Individual differences do not preclude the notion of normative human but can be considered a parameter in such a theory}.   Another perspective, largely in $S$, would dictate a concern with the social structures and dynamics of the social system (multiple humans interacting) with some degree of constraint from $C$.  Of course, one could take the perspective that treats $C$ and $S$ simultanteously, which most likely depends on a simulation approach that captures aspects of $C$ and $S$ in one runnable system.  
 
 \subsubsection{Single Scale Approaches}
-It is conceivable that a fruitful applcation of the RCP might occur at one level of scale.   
-Let us first consider the cognitive level of scale.  There exists a large literature on neural and cognitive approaches to understanding human social behavior and social psychology\footnote{Division 8 of the American Psychological Association is dedicated to social psychology } that include a broad range of methods and theoretical orientations, so defining a social phenomena of interest is natural at the cognitive level.  For example, the categorization of social and cultural norms might include some type of learning mechanism for which the end state of an agent/person depends, critically, on the distribution of inputs provided to it.  This much is known from studies of learning in humans across domains\ref{categorization, language, skills, etc.}.  In other words, it is a one-way street, so to speak.  This distribution, almost axiomatically, is dependent upon some propoerties of $S$(e.g., a social network topology)\footnote{Language learning is another example, we know much about the psychological processes that underlie the development of spoken language[]*REFs]}.  At issue, however, for the application of the RCP is to correctly specify these properties.  One option is to use existing information from the social level, e.g., network topology[REF bearman], community-level interaction schedules[REF].  An astute reader might notice that this solution is not fully satisfactory because as information flows on the network, the nature of that information may change precisely because of the cogntive components (the people) processing that information. However, by our thinking, this is an applciation of the RCP that may lend further insight (resolution) into some aspect of $C$.  Although this example is sytlized and hypothetical, it captures the nature of the RCP.  Constraining one level of scale from information at another level of scale.  [MAYBE SHOW A PICTURE HERE] 
+It is conceivable that a fruitful applcation of the RCP might occur at one level of scale.  Let us first consider the cognitive level of scale.  There exists a large literature on neural and cognitive approaches to understanding human social behavior and social psychology\footnote{Division 8 of the American Psychological Association is dedicated to social psychology} with the requisite broad range of methods and theoretical orientations, so defining a social phenomena of interest is natural at the cognitive level. One potential approach, then, for implementing the \textit{RCP} would be to map key properties of cognitive systems to properties of social systems.  For example, one central finding in cognitive science and psychology is that learning mechanisms are sensitive to the order in which information is presented to the system (e.g., a human or computational model of a human).  Further, there is a large set of social phenomena that imply some type of learning mechanism (attitude formation [REF ORR]; impression formation [REF MONROE]).  Thus, we can conclude, reasonably, that order matters for some social phenomena at the psychological level.  The application of the RCT, in this case, means understanding inferring what a distribution of the temporal order of inputs would be given some $s \in S$ . (This distribution, almost axiomatically, seems dependent upon some propoerties of $S$ if $S$ contains graph $G$ where $V(G)$ and $E(G)$ are the agents and information channels, respectively.)  Off-hand, there seem to be candidate examples from the literature regarding human socio-technical networks(e.g., [REF BEARMAN; REF BARABASI WEB]), but what this means precisely would depend on the social phenomena of interest (e.g., early language development may depend on a different $G \in S$ compared to racial stereotypes).
 
-At the social level of scale there are, inherently, phenomena of interest are, by definition social, but not cognitive.  An obvious approach here is an analysis of the degree to which $\phi_{at}$ the $s$ in $S$ compares to $C$; in other words, to what degree does $s$ respect $C$.  For some phenomena, it may be possible to find a $C$ that not only accords with $S$ but also is in some formal algoritmic formalism(e.g., \ref{READ, ORR, Delage; etc}).  So, the comparison would use...ask NDSSL folks.  [I put a query into NDSSL]. 
+At the social level of scale, phenomena of interest are, by definition social, but not cognitive.  An obvious approach here is an analysis of the degree to which $\phi_{at}$ the $s$ in $S$ compares to $C$; in other words, to what degree does $s$ respect $C$.  For some phenomena, it may be possible to find a $C$ that not only accords with $S$ but also is in some formal algoritmic formalism(e.g., \ref{READ, ORR, Delage; etc}).  So, the comparison would use...ask NDSSL folks.  [I put a query into NDSSL]. 
+
+*PROBLEMS, MISS CROSS SCALE DYNAMICS, e.g., capturing 
 
 \subsubsection{Multi-Scale Approach}
 to build a simulation platform that simultaneosly captures essentail aspects of both $S$ and $C$ (e.g., an agent-based model of cognitive agents) and to simulate a social phenomena.  In this case, the upward-constraints refer directly to the substition of  $\psi_{ct}$ for $\phi_{at}$; the downward-constraints refer to the degree to which the simulated social system matches $S$ as defined by the pheonomena of interest.  The downward constraints would thus serve as a signal that would suggest modifications to $\psi_{ct}$.  In this case $\phi_{at}$ is respected by the construction of the social simulation environment.
  
 
-
-
-
 FREE PARAMETER PROBLEM AND Acountable modeling:  The second kind is to abstract some details from full-fledged cognitive models, but adhere to a principle of \textit{Accountable Modeling}\ref{LebiereX}.
 
  
-
-
-\subsubsection{Automation and Systems of Constraints}
 The notion of generating a fixed system of constraints that can automate the construction of social systems.  $S$ and $C$ can be encoded as algorithms.  If this is the case, then we could construct an automated system that scans the parameter space (if computable).
 
 What if $S$ is dependent on $C$?
 
-\section{Analysis of Prior Work}
+
+\section{Analysis of Related Work}
 Here we provide examples of prior work that employ parts of the RCP.  As we have no known examples of the downward-constraints, we focus on upward-constraints.  These are not exhaustive; we apologize for any work not mentioned.  
 
 \section{An Example of RCT Implemented}
@@ -77,5 +73,8 @@ Can we apply the RCP to Statistical or Analytic models that do not have implemen
 
 \subsection{Importing Neurophysiology}
 Provide background on Stocco's work.
+
+\subsection{A plan for moving forward}
+From the single level of scale approach, One idea is to catalog social phenomena captured by psychological models and do a mapping of $C$ to $S$. \footnote{In the limit, the social features and the cognitive features have co-evolved on an evolutionary time scale}.
 
 \end{document}

@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: document.aux
+White space in argument---line 5 of file document.aux
+ : \citation{van
+ :               Rooij}
+I'm skipping whatever remains of this command
+The style file: plain.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "2008"
+Warning--I didn't find a database entry for "Marr"
+Warning--I didn't find a database entry for "1981"
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4196 characters,
+and the built_in function-call counts, 563 in all, are:
+= -- 57
+> -- 14
+< -- 0
++ -- 6
+- -- 4
+* -- 38
+:= -- 102
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 22
+empty$ -- 50
+format.name$ -- 4
+if$ -- 114
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 14
+stack$ -- 0
+substring$ -- 44
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 7
+width$ -- 3
+write$ -- 24
+(There was 1 error message)

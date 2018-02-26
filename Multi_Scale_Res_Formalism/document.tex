@@ -1,4 +1,7 @@
 \documentclass{article}
+\usepackage{graphicx}
+\graphicspath{ {files/RCP_diagram/} {files/}}
+
 \title{Multi-Scale Resolution of Human Social Systems:  A Synergistic Paradigm for Simulating Minds and Society}
 \author{Mark G. Orr}
 
@@ -6,7 +9,9 @@
 \maketitle
 
 \section{Introduction}
-Recently, we put forth an initial sketch of what we call the Resolution Thesis.  The thesis holds that 1) models of cognition will be improved given constraints from the structure and dynamics of the social systems in which they are supposed to be embedded, and 2) the resolution of social simulations of agents will be improved given constraints from cognitive first principles.  This thesis reflects a variety of motivations, the most obvious being the observation that there is little overlap between the cognitive sciences and the generative social science approach[*REF EPSTEIN, 2008], both of which rely heavily on computer simulation to understand aspects of human systems, albeit different aspects of human systems with respect to scale.  The former focuses almost exclusively on the mind as a scientific object of study for which the lion's share of simulation efforts reflect a normative mind (one mind at a time, non-social or statically social) and the latter emphasizing multiple aspects of social systems, the mind being only one of these aspects, with the effect there is little cross-polination with the vast experimental evidence of how the mind operates or what are the central theoretical entities that compose the mind.  To a large degree, the resolution thesis is a recognition that the interdependence between cognitive and social systems has yet to be leveraged for the purposes of improving our understanding of both, despite some common points of interest.    
+\cite{schelling1969}
+
+Recently, we put forth an initial sketch of what we call the Resolution Thesis\cite{orr2018_brims}.  The thesis holds that 1) models of cognition will be improved given constraints from the structure and dynamics of the social systems in which they are supposed to be embedded, and 2) the resolution of social simulations of agents will be improved given constraints from cognitive first principles\footnote{Cognition considered as theoretical models of human perception, thought and action that includes, broadly, explanations of emotion, motivation, and affect in addition to more tradtional domains of cognitive psychology and cognitive science; in short, one could arguably use the term \textit{psychological first principles} as equivalent}.  This thesis reflects a variety of motivations, the most obvious being the observation that there is little overlap between the cognitive sciences and the generative social science approach[*REF EPSTEIN, 2008], both of which rely heavily on computer simulation to understand aspects of human systems, albeit different aspects of human systems with respect to scale.  The former focuses almost exclusively on the mind as a scientific object of study for which the lion's share of simulation efforts reflect a normative mind (one mind at a time, non-social or statically social) and the latter emphasizing multiple aspects of social systems, the mind being only one of these aspects, with the effect there is little cross-polination with the vast experimental evidence of how the mind operates or what are the central theoretical entities that compose the mind.  To a large degree, the resolution thesis is a recognition that the interdependence between cognitive and social systems has yet to be leveraged for the purposes of improving our understanding of both, despite some common points of interest.    
 
 The Resolution Thesis can be understood from multiple perspectives.  From the view of cognitive science, the thesis means, broadly, that patterns of organization (e.g., information flow on the internet [REF; FROM SOCIALSIM], clustering of behaviors in a community[REF CHRISTAKIS] at the social and organizational level should inform the specifications of a cognitive model.  In other words, when possible, these patterns should be included as convergent evidence for a theory or model.  Naturally, it is desirable for cognitive models that are implicated in social behavior to have some reasonable explanatory scheme that links facets of the cognitive model to aspects of social organization.   We will address what this means and issues in more detail below but want to point the reader to Anderson's 200X Relevance Thesis as a useful example of reasoning about how cognition may have reasonable implications for social organization.   Furthermore, from the cognitive science perspective, neurophysiological processes are naturally implied and should be considered as a key part of the Resolution Thesis when appropriate [REF STOCCO here].  The reader might notice that it is difficult to think about using social organization as part and parcel of the convergent evidence of a cognitive model without considering the implications of cognition for social behavior.  But that is precisely the point--it is natural, once of the mind to think about how cognition scales, to think about using the degree to which it scales accurately as part of the convergent evidence for the validity of the model.
 
@@ -21,9 +26,18 @@ These counter arguments notwithstanding, our working assumption is captured by t
 
 
 \section{The Reciprocal Constraints Paradigm}
-The \textit{RCP} is a methodological approach for thinking about how to develop understanding of social systems, and ultimately provide useable simulations of such.  It's value does not lie in precise presecription, but in laying a foundation for fruitful social simulation and an understanding of the implications for theory and models across levels of scale.  To be clear, the \textit{RCP} was conceived when considering multi-agent systems and cognitive science where human behavior, in both cases, is implemented in a simulation enviorment in which agents are represented algorithmically.
+The \textit{RCP} is a methodological approach for thinking about how to develop understanding of social systems, and ultimately provide useable simulations of such.  It's value does not lie in precise presecription, but in laying a foundation for fruitful social simulation and an understanding of the implications for theory and models across levels of scale.  To be clear, the \textit{RCP} was conceived when considering multi-agent systems and cognitive science where human behavior, in both cases, is implemented in a simulation enviorment in which agents are represented algorithmically.  This is not meant to preclude other methods and approahces (e.g., analytically tractable economic games), but just to provide the context for the development of the ideas that underlie the \textit{RCP}.  We will address this concern in the discussion.
 
-Figure \ref{RCP_diagram} shows the four primary components of the RCP: a cognitive system, an upward-scaling constraint, a social system, and a downward-scaling constraint.  Figure \ref{RCP_diagram} captures the potential for integrating neurophysiolgical considerations when appropriate; these may prove as essential for some social systems. Further, we assume that defining social systems and cognitive models as having an abstract set of first principles $S$ and $C$ and their implications (e.g., patterns expected in data and their interpretation); i.e., $S$ and $C$ are largely theoretical entities that determine properties of each level of scale (we expand on this shortly).  The upward- and downward-scaling constraints refers to using information from one level of scale to inform the resolution of another (we also expand on this shortly).  A fundamental component of constraints, as we see it, is that they are bound up in both theory and empirical/observation work in respect to the discipines that address a particular level of scale.  This makes defining what is $S$ and $C$ precisely more a matter of practice, at least in the initial stages of applications of the \textit{RCP}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{RCP_diagram.png}
+	\caption{\label{fig:rcpdiagram} The four  paradigm.  
+	}
+\end{figure}
+
+Figure \ref{fig:rcpdiagram} shows the four primary components of the RCP: a cognitive system, an upward-scaling constraint, a social system, and a downward-scaling constraint.  Figure \ref{RCP_diagram} captures the potential for integrating neurophysiolgical considerations when appropriate; these may prove as essential for some social systems. Further, we assume that defining social systems and cognitive models as having an abstract set of first principles $S$ and $C$ and their implications (e.g., patterns expected in data and their interpretation); i.e., $S$ and $C$ are largely theoretical entities that determine properties of each level of scale (we expand on this shortly).  The upward- and downward-scaling constraints refers to using information from one level of scale to inform the resolution of another (we also expand on this shortly).  A fundamental component of constraints, as we see it, is that they are bound up in both theory and empirical/observation work in respect to the discipines that address a particular level of scale.  This makes defining what is $S$ and $C$ precisely more a matter of practice, at least in the initial stages of applications of the \textit{RCP}.
+
+
 
 A central assumption in the RCP is that cognitive systems and definitions of agent behaviors in social systems are meant to represent human information-processing capacities that can be described as mathematical functions. \cite{van Rooij, 2008}\footnote{This is equivalent to Marr's computational level; we will use Marr's computational, algorithmic, and implementation levels of description\cite{Marr,1981} throughout this paper.}. Thus, in $C$ we can define a cognitive system as $\psi_{ct}: I_{ct} \rightarrow \psi_{ct}(i)$ where $I_{ct}$ is the set of allowable inputs and $\psi_{ct}(i)$ is the output; in $S$ we have a corresponding agent definition as $\phi_{at}: I_{at} \rightarrow \phi_{at}(i)$ where $I_{at}$ is the set of allowable inputs and $\phi_{at}(i)$ is the output for an agent\footnote{Social and cognitive systems may define parameters regarding variability among a set of agents; this is not reflected here.}.  Notice that $S$ and $C$ imply somthing about the inputs for both levels of scale as well as each's functional mapping.
 
@@ -50,6 +64,7 @@ FREE PARAMETER PROBLEM AND Acountable modeling:  The second kind is to abstract 
 The notion of generating a fixed system of constraints that can automate the construction of social systems.  $S$ and $C$ can be encoded as algorithms.  If this is the case, then we could construct an automated system that scans the parameter space (if computable).
 
 What if $S$ is dependent on $C$?
+
 
 
 \section{Analysis of Related Work}
@@ -83,5 +98,11 @@ Issues of the right cogntive model, lots of cog models....
 
 It should be clear that application of the RCP to social systems relies, in the end, of simulation approaches both at the cognitive and social levels.  Without this, the approaches are generally one level.  Even one level approaches that are formal and have sim, will still not capture the dynamics at play without full simualtion.  
 
+%FIGURES
+
+
+
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}

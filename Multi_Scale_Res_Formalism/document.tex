@@ -14,12 +14,11 @@ Recently, we put forth an initial sketch of what we call the \textit{Resolution 
 
 The Resolution Thesis can be understood from multiple perspectives.  From the view of cognitive science, the thesis means that patterns of organization (e.g., information flow on the internet [REF; FROM SOCIALSIM], clustering of behaviors in a community[REF CHRISTAKIS]) at the social and organizational level should inform cognitive models.  In other words, when possible, these patterns should be included as convergent evidence for a theory or model.  Although it is desirable for cognitive models that are implicated in social behavior to have some reasonable explanatory scheme that links facets of the cognitive model to aspects of social organization, this is rarely the case.  (Anderson's Relevance Thesis, a rare exception, reasons about how cognition may have implications for social organization.)  The reader might notice that it is difficult to think about using social organization as part and parcel of the convergent evidence of a cognitive model without first considering the implications of cognition for social behavior.  But that is precisely the point--it is natural, once of the mind to think about how cognition scales to social systems, to think about using the degree to which it scales accurately as part of the convergent evidence for having confidence in the model. 
 
-From the generative social science perspective, the Resolution Thesis means that the representations of agents should be informed closely by cognitive science and relevant neurophysiological considerations.  This runs somewhat counter to the principled adherence to simplification of the internal processing of simulated agents found in this literature, one that, in fact, served to show that complex social dynamics can be driven by simple behavioral rules of agents.  However, more recently, there are efforts in the generative social sciences that acknowledged that closer ties to the psychological and neurophysiological underpinnings of human behavior may yield benefit.  Epstein's neurocognitive approach is a notable effort in this vein[REF, Epstein 2014]; there are other related approaches (e.g. REF 19-22 from BRiMS).  These efforts notwithstanding, there remains a large gap between them and the implementation of models from cognitive science and psychology, not necessarily in principle, but in practice. [DO WE MENTION HERE THAT THE SUN AND VAN OVERWALL GROUPS HAVE CALLED FOR COGNITION TO GROUND SOCIAL SCIENCES FOR AT LEAST A DECADE, PROBABLY SHOULD]
-
+From the generative social science perspective, the Resolution Thesis means that the representations of agents in social simulations should be informed closely by cognitive science and relevant neurophysiological considerations.  This runs somewhat counter to the principled adherence to simplification of the internal processing of simulated agents found in this literature, one that, in fact, served to show that complex social dynamics can be driven by simple behavioral rules of agents.  However, more recently, there are efforts in the generative social sciences that acknowledged that closer ties to the psychological and neurophysiological underpinnings of human behavior may yield benefit.  Epstein's neurocognitive approach is a notable effort in this vein[REF, Epstein 2014]; there are other related approaches (e.g. REF 19-22 from BRiMS).  These efforts notwithstanding, there remains a large gap between them and the implementation of models from cognitive science and psychology, not necessarily in principle, but in practice. It is worth noting that there are some threads in cognitive science that align with this perspective of the \textit{Resolution Thesis}.  In particular, Ron Sun's push for multi-agent systems based on cognitive agents and using cogitive first principles as the basis for the social sciences\cite{sun2006}.  The relatively new field of computational social psychology is clearly relevant as well \cite{vallacher2017} as well as the computational organizational theory approach\cite{prietula1998}.
 
 A third and more general view is that the Resolution Thesis is about human systems for which the distinction between neural, cognitive and social levels of scale should be considered counter-productive.  An understanding of any of these levels of scale is dependent, to some degree, on an understanding of the others.  In effect, the notion of convergent evidence as originating, in part, from other levels of scale, applies to all levels of scale.  The implication is that we should leverage information across scale in an iterative and synergistic way, if not simultaneously. 
 
-The Resolution Thesis, despite sounding both reasonable and practical at face value, is opposed by reasonable argument from both the cognitive sciences and generative social sciences.  Simon's notion of nearly decomposable systems--that the temporal dynamics of adjacent levels of scale, in most systems, are little correlated--suggests that we can understand well the dynamics at each level of scale independently of the others(*REF, SIM 1962; see P. Anderson, 1972, for similiar argument in phyical systems).  The KISS principle (keep it simple, stupid) used heavily in the generative social sciences, is clearly akin to Simon's notion, and is bolstered by its early wins in understanding the behavior of social systems using simple, non-cognitive agents (REF 15-17 from BRIMS).  In cognitive science, Newell, in considering the time scale of human behavior, suggested that the social band ($> 10^4$ seconds, representing social systems and organizational behavior) is characterized to be weak in strength in the sense that it may not provide computations in a systematic way (relative to lower temporal bands, e.g., cognitive and neural processes).  
+The Resolution Thesis, despite sounding both reasonable and practical at face value, is opposed by argument from both the cognitive sciences and generative social sciences.  Simon's notion of nearly decomposable systems--that the temporal dynamics of adjacent levels of scale, in most systems, are little correlated--suggests that we can understand well the dynamics at each level of scale independently of the others(*REF, SIM 1962; see P. Anderson, 1972, for similiar argument in phyical systems).  The KISS principle (keep it simple, stupid) used heavily in the generative social sciences, is clearly akin to Simon's notion, and is bolstered by its early wins in understanding the behavior of social systems using simple, non-cognitive agents (REF 15-17 from BRIMS).  In cognitive science, Newell, in considering the time scale of human behavior, suggested that the social band ($> 10^4$ seconds, representing social systems and organizational behavior) is characterized to be weak in strength in the sense that it may not provide computations in a systematic way (relative to lower temporal bands, e.g., cognitive and neural processes).  
 
 These counter arguments notwithstanding, our working assumption is that the degree to which the  \textit{Resolution Thesis} is useful is an empirical issue.  The state of the art in technology, computing and the their tight coupling to the current social mileau affords, we think, the testing of the Resolution Thesis.   To this end, we've developed the \textit{Reciprocal Constraints Paradigm} (henceforth \textit{RCP}), a methodological approach that might lay a foundation for fruitful social simulation and an understanding of the implications for theory and models across levels of scale.
 
@@ -68,9 +67,9 @@ Once the simulation is runnable, the downward-constraint could operate, as descr
 These two examples are largely hypothetical.  The value, we hope, is to provide some sketches of what the \textit{RCP} might look like in practice.  Clearly, there are many issues that are raised, even by these sketches, let alone by the general notion of the \textit{RCP} and the \textit{Resolution Thesis}.  We address some of the obvious of these issues next.
 
 \subsection{Issues in Applying the Reciprocal Constraints Paradigm }
-1. Both single- and multi-scale approaches to the \textit{RCP} are fraught with difficulty in application.  
+Both single- and multi-scale approaches to the \textit{RCP} are fraught with difficulty in application.  
 
-2. FREE PARAMETER PROBLEM AND Acountable modeling: 
+2. FREE PARAMETER PROBLEM AND Acountable modeling, mere parameter optimization?: 
 
 3. What if $S$ is dependent on $C$?
 
@@ -80,22 +79,29 @@ These two examples are largely hypothetical.  The value, we hope, is to provide 
 
 6. quality of the data...some are quite veridical on some dimensions, but may be misleading on others...e.g., tweets are tmeporal and veridical in terms of content, but inference about meaning, motivation and intention may not be possible.  data issues in general...the case when there is little data or there is a patchwork of data.
 
+
+
 The second kind is to abstract some details from full-fledged cognitive models, but adhere to a principle of \textit{Accountable Modeling}\ref{LebiereX}.
 
 Have data at both levels or just one...re
-
-\section{Analysis of Related Work}
-Here we provide examples of prior work that employ parts of the RCP.  As we have no known examples of the downward-constraints, we focus on upward-constraints.  These are not exhaustive; we apologize for any work not mentioned, but wanted to assure the reader that there are some useful examples in the literature that speak to the feasibility of implementing the \textit{RCP}.  
+  
 
 \section{An Example of RCT Implemented}
 Christian's sim
 
-Note, we may just provide examples of how Stocco's work might be used in our example...not run the actual sims if not have time.
+\subsection{Importing Neurophysiology}
+Base this on Stocco's paragraph from BRiMs and use it in the context of the ACT-R sim we did above. and 
+
+Also, add the paragraph from BRiMS on how neuro to cog is many to one and cog to social is one to one.
+
 
 \section{Discussion}
-Why not just Deep Learning...?   
+Why not just Deep Learning...?  
+
 \subsection{Moving Forward}
 From the single level of scale approach, One idea is to catalog social phenomena captured by psychological models and do a mapping of $C$ to $S$. \footnote{In the limit, the social features and the cognitive features have co-evolved on an evolutionary time scale}.
+
+Downward constraints on neurophysiology? From neuro to cog to social to cog to neuro?  Is this where it is headed? Stocco has a paragraph in BRiMS on the cog to neuro, use it.
 
 
 

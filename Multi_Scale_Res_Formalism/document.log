@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  31 MAR 2018 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  31 MAR 2018 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,48 +220,49 @@ Overfull \hbox (17.14674pt too wide) in paragraph at lines 48--49
 []\OT1/cmr/m/n/10 *BUT KEEP IN MIND, RE-CIP-RO-CAL CON-STRAINTS PARADIGM MEANS
  []
 
-[5] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
+[5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+ [6]
 
 LaTeX Warning: Citation `accountable modeling' on page 7 undefined on input lin
-e 75.
+e 67.
 
 
 LaTeX Warning: Citation `orr2017readbook; orr2017galeabook' on page 7 undefined
- on input line 77.
+ on input line 69.
 
 
 LaTeX Warning: Citation `orr2017readbook orr2017galeabook' on page 7 undefined 
-on input line 77.
+on input line 69.
 
 [7] [8]
-Overfull \hbox (9.90982pt too wide) in paragraph at lines 83--83
+Overfull \hbox (9.90982pt too wide) in paragraph at lines 75--75
 []\OT1/cmr/bx/n/12 Issues in Ap-ply-ing the Re-cip-ro-cal Con-straints Paradigm
  
  []
 
 
-LaTeX Warning: Reference `LebiereX' on page 9 undefined on input line 98.
+LaTeX Warning: Reference `LebiereX' on page 9 undefined on input line 90.
 
-[9]
-Overfull \hbox (0.69388pt too wide) in paragraph at lines 108--109
+
+Overfull \hbox (0.69388pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/m/n/10 ACT-R is com-posed of sev-eral ded-i-cated mod-ules(e.g., pro
 -ce-du-ral and declar-
  []
 
+[9]
 
-LaTeX Warning: Citation `ACTRWEBSITE' on page 10 undefined on input line 110.
+LaTeX Warning: Citation `ACTRWEBSITE' on page 10 undefined on input line 102.
 
 
-LaTeX Warning: Citation `hi' on page 10 undefined on input line 110.
+LaTeX Warning: Citation `hi' on page 10 undefined on input line 102.
 
-[10] (./document.bbl) [11] (./document.aux)
+(./document.bbl [10]) [11] (./document.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -269,7 +270,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2146 strings out of 494953
  28840 string characters out of 6180977
- 95236 words of memory out of 5000000
+ 93236 words of memory out of 5000000
  5412 multiletter control sequences out of 15000+600000
  10030 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -290,7 +291,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on document.pdf (11 pages, 292095 bytes).
+Output written on document.pdf (11 pages, 290937 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

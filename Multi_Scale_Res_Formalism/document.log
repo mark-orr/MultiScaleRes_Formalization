@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  16 APR 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  16 APR 2018 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -231,20 +231,20 @@ ned on input line 73.
 [7]
 
 LaTeX Warning: Citation `orr2017readbook; orr2017galeabook' on page 8 undefined
- on input line 80.
+ on input line 75.
 
 
 LaTeX Warning: Citation `orr2017readbook orr2017galeabook' on page 8 undefined 
-on input line 80.
+on input line 75.
 
 [8]
-Overfull \hbox (9.90982pt too wide) in paragraph at lines 87--87
+Overfull \hbox (9.90982pt too wide) in paragraph at lines 82--82
 []\OT1/cmr/bx/n/12 Issues in Ap-ply-ing the Re-cip-ro-cal Con-straints Paradigm
  
  []
 
 
-LaTeX Warning: Reference `LebiereX' on page 9 undefined on input line 101.
+LaTeX Warning: Reference `LebiereX' on page 9 undefined on input line 96.
 
 [9] (./document.bbl) [10] (./document.aux)
 
@@ -274,7 +274,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on document.pdf (10 pages, 282119 bytes).
+Output written on document.pdf (10 pages, 282165 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream

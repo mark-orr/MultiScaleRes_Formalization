@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  15 APR 2018 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  16 APR 2018 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -200,60 +200,51 @@ ine 18.
 File: files/RCP_diagram.png Graphic file (type png)
 
 <use files/RCP_diagram.png>
-Package pdftex.def Info: files/RCP_diagram.png used on input line 32.
+Package pdftex.def Info: files/RCP_diagram.png used on input line 31.
 (pdftex.def)             Requested size: 345.0pt x 258.75514pt.
 
 
-LaTeX Warning: Citation `van Rooij' on page 3 undefined on input line 41.
+LaTeX Warning: Citation `van Rooij' on page 3 undefined on input line 40.
 
 
-LaTeX Warning: Citation `2008' on page 3 undefined on input line 41.
+LaTeX Warning: Citation `2008' on page 3 undefined on input line 40.
 
 
-LaTeX Warning: Citation `Marr' on page 3 undefined on input line 41.
+LaTeX Warning: Citation `Marr' on page 3 undefined on input line 40.
 
 
-LaTeX Warning: Citation `1981' on page 3 undefined on input line 41.
+LaTeX Warning: Citation `1981' on page 3 undefined on input line 40.
 
-[3] [4 <./files/RCP_diagram.png>]
-Overfull \hbox (17.14674pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/10 *BUT KEEP IN MIND, RE-CIP-RO-CAL CON-STRAINTS PARADIGM MEANS
- []
+[3] [4 <./files/RCP_diagram.png>] [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
-[5] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
 
-LaTeX Warning: Citation `accountable modeling' on page 7 undefined on input lin
-e 79.
+LaTeX Warning: Citation `Lebiere's accountable modeling Paper' on page 7 undefi
+ned on input line 73.
+
+[7]
+
+LaTeX Warning: Citation `orr2017readbook; orr2017galeabook' on page 8 undefined
+ on input line 80.
 
 
-Overfull \hbox (14.54436pt too wide) in paragraph at lines 79--80
-\OT1/cmr/m/n/10 jec-tive func-tion w.r.t. prop-er-ties of $\OML/cmm/m/it/10  []
-$ \OT1/cmr/m/n/10 sur-faced through sen-si-tiv-ity analysis/Monte-
- []
+LaTeX Warning: Citation `orr2017readbook orr2017galeabook' on page 8 undefined 
+on input line 80.
 
-
-LaTeX Warning: Citation `orr2017readbook; orr2017galeabook' on page 7 undefined
- on input line 83.
-
-
-LaTeX Warning: Citation `orr2017readbook orr2017galeabook' on page 7 undefined 
-on input line 83.
-
-[7] [8]
-Overfull \hbox (9.90982pt too wide) in paragraph at lines 90--90
+[8]
+Overfull \hbox (9.90982pt too wide) in paragraph at lines 87--87
 []\OT1/cmr/bx/n/12 Issues in Ap-ply-ing the Re-cip-ro-cal Con-straints Paradigm
  
  []
 
 
-LaTeX Warning: Reference `LebiereX' on page 9 undefined on input line 104.
+LaTeX Warning: Reference `LebiereX' on page 9 undefined on input line 101.
 
 [9] (./document.bbl) [10] (./document.aux)
 
@@ -262,30 +253,31 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  2144 strings out of 494953
- 28823 string characters out of 6180977
- 94236 words of memory out of 5000000
+ 28839 string characters out of 6180977
+ 90236 words of memory out of 5000000
  5410 multiletter control sequences out of 15000+600000
  10030 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,8n,24p,2903b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,24p,2911b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on document.pdf (10 pages, 273563 bytes).
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on document.pdf (10 pages, 282119 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

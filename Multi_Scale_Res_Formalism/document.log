@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  23 APR 2018 08:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  24 APR 2018 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,19 +241,31 @@ on input line 79.
 
 LaTeX Warning: Citation `BRiMS Paper' on page 10 undefined on input line 105.
 
+
+LaTeX Warning: Citation `Galea' on page 10 undefined on input line 110.
+
+
+LaTeX Warning: Citation `2017; Kaplan' on page 10 undefined on input line 110.
+
+
+LaTeX Warning: Citation `2017' on page 10 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Orr 2017' on page 10 undefined on input line 110.
+
 [10] (./document.bbl) [11] (./document.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2144 strings out of 494953
- 28842 string characters out of 6180977
- 90236 words of memory out of 5000000
- 5410 multiletter control sequences out of 15000+600000
+ 2152 strings out of 494953
+ 28942 string characters out of 6180977
+ 90245 words of memory out of 5000000
+ 5418 multiletter control sequences out of 15000+600000
  10030 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,8n,24p,1812b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,24p,1808b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -269,7 +281,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on document.pdf (11 pages, 283955 bytes).
+Output written on document.pdf (11 pages, 286454 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream

@@ -6,10 +6,25 @@ S~Bhattacharyya and S~Ohlsson.
   properties: A computer model.
 \newblock {\em Social Networks}, 32:263--278, 2010.
 
-\bibitem{newell1990}
-Allen Newell.
-\newblock {\em Unified theories of cognition.}
-\newblock Harvard University Press, 1990.
+\bibitem{caillou2017}
+Philippe Caillou, Benoit Gaudou, Arnaud Grignard, Chi~Quang Truong, and Patrick
+  Taillandier.
+\newblock A simple-to-use bdi architecture for agent-based modeling and
+  simulation.
+\newblock In {\em Advances in Social Simulation 2015}, pages 15--28. Springer,
+  2017.
+
+\bibitem{epstein2014}
+Joshua~M Epstein.
+\newblock {\em Agent\_Zero: Toward neurocognitive foundations for generative
+  social science}.
+\newblock Princeton University Press, 2014.
+
+\bibitem{malleson2012}
+Nick Malleson, Linda See, Andy Evans, and Alison Heppenstall.
+\newblock Implementing comprehensive offender behaviour in a realistic
+  agent-based model of burglary.
+\newblock {\em Simulation}, 88(1):50--71, 2012.
 
 \bibitem{orr2018_brims}
 et~al Orr, Mark~G.
@@ -21,6 +36,11 @@ Michael Prietula, Kathleen Carley, and Les Gasser.
 \newblock {\em Simulating organizations: Computational models of institutions
   and groups}, volume~1.
 \newblock The MIT Press, 1998.
+
+\bibitem{sakellariou2008}
+Ilias Sakellariou, Petros Kefalas, and Ioanna Stamatopoulou.
+\newblock Enhancing netlogo to simulate bdi communicating agents.
+\newblock In {\em SETN}, volume~8, pages 263--275. Springer, 2008.
 
 \bibitem{sun2006}
 Ron Sun.

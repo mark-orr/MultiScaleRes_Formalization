@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  16 MAY 2018 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.11)  16 MAY 2018 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,31 +208,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
  [8] [9] [10]
 
-LaTeX Warning: Citation `Galea' on page 11 undefined on input line 140.
-
-
-LaTeX Warning: Citation `2017; Kaplan' on page 11 undefined on input line 140.
-
-
-LaTeX Warning: Citation `2017' on page 11 undefined on input line 140.
-
-
-LaTeX Warning: Citation `Orr 2017' on page 11 undefined on input line 140.
+LaTeX Warning: Citation `Orr 2017' on page 11 undefined on input line 142.
 
 [11] (./document.bbl [12]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [13]) [14] (./document.aux)
+ [13] [14]) [15] (./document.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2166 strings out of 494953
- 29105 string characters out of 6180977
- 92345 words of memory out of 5000000
- 5433 multiletter control sequences out of 15000+600000
+ 2165 strings out of 494953
+ 29118 string characters out of 6180977
+ 92353 words of memory out of 5000000
+ 5432 multiletter control sequences out of 15000+600000
  9721 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,8n,23p,1966b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -250,10 +241,10 @@ msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on document.pdf (14 pages, 295713 bytes).
+Output written on document.pdf (15 pages, 298390 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

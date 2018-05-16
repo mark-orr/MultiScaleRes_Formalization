@@ -1,11 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: document.aux
-White space in argument---line 59 of file document.aux
- : \citation{2017;
- :                 Kaplan}
-I'm skipping whatever remains of this command
-White space in argument---line 61 of file document.aux
+White space in argument---line 60 of file document.aux
  : \citation{Orr
  :               2017}
 I'm skipping whatever remains of this command
@@ -15,52 +11,49 @@ Repeated entry---line 243 of file references.bib
  : @book{epstein2014
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "orr2018_brims"
-Warning--I didn't find a database entry for "Galea"
-Warning--I didn't find a database entry for "2017"
 Warning--can't use both author and editor fields in orr2017readbook
 Warning--empty chapter and pages in orr2017readbook
 Warning--can't use both author and editor fields in orr2017galeabook
 Warning--empty chapter and pages in orr2017galeabook
-You've used 34 entries,
+You've used 36 entries,
             2118 wiz_defined-function locations,
-            722 strings with 10079 characters,
-and the built_in function-call counts, 11567 in all, are:
-= -- 1134
-> -- 491
+            725 strings with 10309 characters,
+and the built_in function-call counts, 12131 in all, are:
+= -- 1182
+> -- 527
 < -- 9
-+ -- 200
-- -- 160
-* -- 784
-:= -- 1882
-add.period$ -- 108
-call.type$ -- 34
-change.case$ -- 173
++ -- 214
+- -- 172
+* -- 817
+:= -- 1982
+add.period$ -- 114
+call.type$ -- 36
+change.case$ -- 183
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 473
-empty$ -- 967
-format.name$ -- 160
-if$ -- 2479
+cite$ -- 40
+duplicate$ -- 497
+empty$ -- 1011
+format.name$ -- 172
+if$ -- 2595
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 42
-newline$ -- 173
-num.names$ -- 68
-pop$ -- 208
+int.to.str$ -- 36
+missing$ -- 46
+newline$ -- 183
+num.names$ -- 72
+pop$ -- 228
 preamble$ -- 1
-purify$ -- 147
+purify$ -- 157
 quote$ -- 0
-skip$ -- 315
+skip$ -- 328
 stack$ -- 0
-substring$ -- 726
-swap$ -- 107
+substring$ -- 736
+swap$ -- 109
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 124
 warning$ -- 4
-while$ -- 109
-width$ -- 36
-write$ -- 376
-(There were 3 error messages)
+while$ -- 113
+width$ -- 38
+write$ -- 396
+(There were 2 error messages)

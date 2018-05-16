@@ -40,6 +40,11 @@ Philippe Caillou, Benoit Gaudou, Arnaud Grignard, Chi~Quang Truong, and Patrick
 \newblock In {\em Advances in Social Simulation 2015}, pages 15--28. Springer,
   2017.
 
+\bibitem{el-sayed2017systems}
+Abdulrahman~M El-Sayed and Sandro Galea.
+\newblock {\em Systems Science and Population Health}.
+\newblock Oxford University Press, 2017.
+
 \bibitem{epstein2002}
 Joshua~M Epstein.
 \newblock Modeling civil violence: An agent-based computational approach.
@@ -72,6 +77,12 @@ Evan Heit.
 B.~A. Huberman, P.~Pirolli, J.~E. Pitkow, and R.~M. Lukose.
 \newblock Strong regularities in world wide web surfing.
 \newblock {\em Science}, 280(5360):95--97, 1998.
+
+\bibitem{kaplan2017growing}
+George~A Kaplan, Ana V~Diez Roux, Carl~P Simon, and Sandro Galea.
+\newblock {\em Growing inequality: bridging complex systems, population health,
+  and health disparities}.
+\newblock Westphalia Press, 2017.
 
 \bibitem{lebiere2003}
 Christian Lebiere, Robert Gray, Dario Salvucci, and Robert West.

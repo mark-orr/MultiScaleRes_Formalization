@@ -1,13 +1,9 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: document.aux
-White space in argument---line 60 of file document.aux
- : \citation{Orr
- :               2017}
-I'm skipping whatever remains of this command
 The style file: plain.bst
 Database file #1: references.bib
-Repeated entry---line 243 of file references.bib
+Repeated entry---line 244 of file references.bib
  : @book{epstein2014
  :                  ,
 I'm skipping whatever remains of this entry
@@ -15,45 +11,45 @@ Warning--can't use both author and editor fields in orr2017readbook
 Warning--empty chapter and pages in orr2017readbook
 Warning--can't use both author and editor fields in orr2017galeabook
 Warning--empty chapter and pages in orr2017galeabook
-You've used 36 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            725 strings with 10309 characters,
-and the built_in function-call counts, 12131 in all, are:
-= -- 1182
-> -- 527
+            722 strings with 10183 characters,
+and the built_in function-call counts, 11782 in all, are:
+= -- 1153
+> -- 498
 < -- 9
-+ -- 214
-- -- 172
-* -- 817
-:= -- 1982
-add.period$ -- 114
-call.type$ -- 36
-change.case$ -- 183
++ -- 203
+- -- 162
+* -- 792
+:= -- 1920
+add.period$ -- 111
+call.type$ -- 35
+change.case$ -- 176
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 497
-empty$ -- 1011
-format.name$ -- 172
-if$ -- 2595
+cite$ -- 39
+duplicate$ -- 485
+empty$ -- 989
+format.name$ -- 162
+if$ -- 2525
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 46
-newline$ -- 183
-num.names$ -- 72
-pop$ -- 228
+int.to.str$ -- 35
+missing$ -- 44
+newline$ -- 178
+num.names$ -- 70
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 157
+purify$ -- 150
 quote$ -- 0
-skip$ -- 328
+skip$ -- 321
 stack$ -- 0
-substring$ -- 736
-swap$ -- 109
+substring$ -- 731
+swap$ -- 108
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 122
 warning$ -- 4
-while$ -- 113
-width$ -- 38
-write$ -- 396
-(There were 2 error messages)
+while$ -- 111
+width$ -- 37
+write$ -- 386
+(There was 1 error message)

@@ -40,11 +40,6 @@ Philippe Caillou, Benoit Gaudou, Arnaud Grignard, Chi~Quang Truong, and Patrick
 \newblock In {\em Advances in Social Simulation 2015}, pages 15--28. Springer,
   2017.
 
-\bibitem{el-sayed2017systems}
-Abdulrahman~M El-Sayed and Sandro Galea.
-\newblock {\em Systems Science and Population Health}.
-\newblock Oxford University Press, 2017.
-
 \bibitem{epstein2002}
 Joshua~M Epstein.
 \newblock Modeling civil violence: An agent-based computational approach.
@@ -77,12 +72,6 @@ Evan Heit.
 B.~A. Huberman, P.~Pirolli, J.~E. Pitkow, and R.~M. Lukose.
 \newblock Strong regularities in world wide web surfing.
 \newblock {\em Science}, 280(5360):95--97, 1998.
-
-\bibitem{kaplan2017growing}
-George~A Kaplan, Ana V~Diez Roux, Carl~P Simon, and Sandro Galea.
-\newblock {\em Growing inequality: bridging complex systems, population health,
-  and health disparities}.
-\newblock Westphalia Press, 2017.
 
 \bibitem{lebiere2003}
 Christian Lebiere, Robert Gray, Dario Salvucci, and Robert West.
@@ -126,20 +115,21 @@ Roch~A Nianogo and Onyebuchi~A Arah.
   review.
 \newblock {\em American journal of public health}, 105(3):e20--e31, 2015.
 
+\bibitem{orr2018brims}
+M~G Orr, C~Lebiere, A~Stocco, P~Pirolli, B~Pires, and W~G Kennedy.
+\newblock Multi-scale resolution of cognitive architectures: A paradigm for
+  simulating minds and society.
+\newblock In {\em Proceedings of the International Conference SBP-BRiMS}, 2018.
+
 \bibitem{orr2017readbook}
-M~G Orr and D~Chen.
+Mark~G Orr and Daniel Chen.
 \newblock {\em Computational models of health behavior}.
 \newblock Psychology Press/Routledge, New York, 2017.
 
 \bibitem{orr2017galeabook}
-M~G Orr, K~Ziemer, and D~Chen.
+Mark~G Orr, Katherine Ziemer, and Daniel Chen.
 \newblock {\em Systems of behavior and population health}.
 \newblock Oxford University Press, New York, 2017.
-
-\bibitem{orr2018brims}
-Mark~G Orr, C~Lebiere, A~Stocco, P~Pirolli, B~Pires, and W~G Kennedy.
-\newblock Sbp-brims multi-scale resolution paper.
-\newblock In {\em Proceedings of the International Conference SBP-BRiMS}, 2018.
 
 \bibitem{prietula1998}
 Michael Prietula, Kathleen Carley, and Les Gasser.
@@ -214,5 +204,10 @@ Robert~L. West, Terrence~C. Stewart, Christian Lebiere, and S.~Chandrasekharan.
 \newblock In {\em Proceedings of the 27th Annual Conference of the Cognitive
   Science Society.}, pages 2353--2358. Mahwah, NJ: Lawrence Erlbaum Associates,
   2005.
+
+\bibitem{wilson2000sociobiology}
+Edward~O Wilson.
+\newblock {\em Sociobiology}.
+\newblock Harvard University Press, 2000.
 
 \end{thebibliography}
